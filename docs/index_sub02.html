@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Jua|Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index_sub02.css">
+    
+    
+    <title>2020년 핑거밴드 웹사이트</title>
+</head>
+<body>
+ 
+   <div class="wrap">
+     
+    <!---- 메뉴 구성---------------------> 
+      <div class="box_01">
+      <nav>
+         <h3> <img src="img_sub/logo_.jpg" alt=""></h3> 
+          <div id="btn" class="btn"><a href="#" onclick="showID('nav');"><img id="pngpng" onClick="menuClick()"src="img_sub/icon_01.png" alt=""></a></div>
+          
+          <div id="nav" style="display: none;">
+               <li><a href="">2020년 핑거밴드 캠페인</a></li>
+               <li><a href="">핑거밴드 신청하기</a></li>
+               <li><a href="">대학생 금연 서포터즈</a></li>
+               <li><a href="">지난 핑거밴드 캠페인</a></li>
+           </div>
+          
+               <div class="menu_01">
+        <li><a href="">2020년 핑거밴드 캠페인</a></li>
+               <li><a href="">핑거밴드 신청하기</a></li>
+               <li><a href="">대학생 금연 서포터즈</a></li>
+               <li><a href="">지난 핑거밴드 캠페인</a></li>
+       </div>
+           
+            
+      </nav></div>
+ 
+ <!----------- header 이미지 삽입 ---------------->
+ 
+ <div class="header_img">
+  
+  </div>
+ 
+ <!-------- pagebox1 / 2016년 핑거밴드 캠페인 내용 텍스트가 들어감/ ---->
+ 
+ <div class="pagebox1">
+  
+  <div class="pagebox_text">
+   
+   <p><span>2016년</span> <br>
+   핑거밴드 캠페인</p>
+   
+  </div>
+  
+
+  </div>
+ <!--------- 유튜브 영상 및 소소한 아이콘이 들어감 ----->
+ 
+ <div class="videobox">
+  
+  <div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/O6oK8ah2GV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+   <div class="iconbox">
+   <div class="icon_box01">
+    <img src="img_sub/icon_left.png" alt="">
+    <img class="right" src="img_sub/icon_right.png" alt="">
+    </div>
+  
+    </div>
+  
+  
+  <div class="line">
+  <p></p> 
+  
+   <div class="cycle">
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    
+   </div>
+     
+     <div class="textname">
+      
+      <div class="text_">2016년</div>
+      <div class="text_">2017년</div>
+      <div class="text_">2018년</div>
+      <div class="text_">2019년</div>
+      
+      
+     </div>
+     
+     
+     
+     
+  </div>
+  
+  <!---- footer 가 들어가는 부분 ------->
+  
+  
+   <div class="footer">
+               <div class="footer_wrap">
+               <div class="footer_box01">
+                   
+                
+                       <li><img src="img_cut/02.png" alt=""></li>
+                       <li><img src="img_cut/01.png" alt=""></li>
+                       
+       
+               </div>
+               
+               <div class="footer_box02">
+                   
+                       <li><img src="img_cut/10.png" alt=""></li>
+                       <li><img src="img_cut/12.png" alt=""></li>
+                       
+                
+               </div>
+               </div>
+                
+                 <p>Copyright © 2020 By Meeteum Son. All rights Reserved</p>
+               
+               
+               
+               
+           </div>
+           
+           
+           
+           
+           
+  
+  
+  
+  
+  
+  
+  
+  
+ </div>
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+ 
+</body>
+
+ <script>
+
+       
+        function showID(id)
+        {obj=document.getElementById(id);
+        if(obj.style.display=="none")
+            obj.style.display="block";
+         else
+             obj.style.display="none";
+        }
+        
+      
+     temp = 0
+    function menuClick(){
+        menu = document.getElementById("btn")
+        img = document.getElementById("pngpng")
+        if(temp == 0){
+            img.src = 'img_sub/icon_02.png'
+            temp = 1
+        } else {
+            img.src = 'img_sub/icon_01.png'
+            temp = 0
+        }
+    
+    }    
+    
+    
+    
+    
+    
+    </script>
+
+
+
+
+
+</html>

@@ -1,0 +1,280 @@
+.wrap{width: 98%; margin: auto;}
+
+{outline: 1px solid;}
+
+
+h3 img{width: 15%;}
+.btn{float: right; margin-top: -9%; margin-right: 1%;}
+#pngpng{width: 70%; cursor: pointer;}
+
+
+.menu_01{display: flex; list-style-type: none; font-size: 1.5vw; width: 100%; justify-content: flex-end; margin-top: -5%; 
+}
+
+.menu_01 li{padding-right: 3%; }
+
+.menu_01 li a{text-decoration: none; font-family: 'Jua', sans-serif; color:#666;}
+
+.menu_01 li a:hover{border-bottom: 3px solid #00cccc; font-family: 'Jua', sans-serif; color:#666; -webkit-transition:width 6s, height 6s;}
+
+/*타블렛 사이즈 정도?*/
+@media all and (max-width:900px){
+    .menu_01{display: none;}
+}
+
+
+
+@media all and (min-width:899px){
+    .btn{display: none;}
+}
+
+/*400px*/
+@media all and (max-width:425px){
+   #pngpng{width: 50%; margin-top:-20%; margin-left: 17%;}
+}
+
+
+#nav{ margin-top: -9px; background-color:pink;100%; height:150px; list-style-type: none; padding-top: 5px; text-align: center;
+font-family: 'Jua', sans-serif;}
+#nav li:hover{background-color:white; opacity: 0.8; padding:10px;}
+#nav li {margin-left: 3%; padding-top: 12px; margin-right: 3%; }
+#nav li a{text-decoration: none;color: #666; font-weight: bold;}
+#nav li a:hover{text-decoration: none; color: black; font-weight: bold;}
+
+
+/* header 이미지 css 작업 내역 */
+
+.header_img{width: 100%; margin: auto; margin-top: 2%; background-image: url(img_sub/sub02%20img.png); height:200px; background-position: center; background-size: 100%; background-repeat: no-repeat;}
+
+
+/* 핑거밴드 text css 작업 내역*/
+
+.pagebox1{margin-left:28.5%; margin-top: 3%; color: #5cb7ad; font-size: 2vw;font-family: 'Jua', sans-serif;}
+.pagebox_text{width: 50%;}
+.pagebox_text span{font-size: 1.5vw; color: #666}
+
+
+/*video 영상이 들어가는 곳 */
+
+.video{text-align: center;}
+.iconbox{text-align: center; margin-top: -13%;}
+.icon_box01{width: 100%;}
+.iconbox img{width: 1.5%;}
+.right{margin-left: 80%;}
+
+/*video 아래에 들어가는 버튼 css 작업 내역 */
+
+.line{margin-top: 15%;}
+.line p{border-bottom: 1px solid #999;width: 60%; margin: auto;}
+.cycle{display: flex; justify-content:space-between; width: 60%; margin: auto; margin-top: -6.5px}
+
+.one{width: 1.7%; height: 14px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: white;}
+
+.one:hover{cursor: pointer; background-color: #00cccc; }
+
+.two{width: 1.3%; height:10px;border: 1px solid;
+border-radius: 70px; color: #999; background-color: #999;}
+
+
+/*년도 css 작업 내역*/
+
+.textname{display: flex; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color:#555;justify-content: space-between; margin: auto; width: 39%; margin-top: 1.2%;}
+
+
+/*footer css 작업 내역 */ 
+
+.footer{margin-top: 3%; background-color: #333; text-align: center;}
+
+.footer_wrap{display: flex; justify-content: space-around; padding-top:2%; }
+.footer_box01{display: flex;  list-style-type: none;}
+.footer_box01 img{width: 70%;}
+
+.footer_box02{display: flex;  list-style-type: none; }
+.footer_box02 img{width: 70%;}
+.footer p{padding-bottom: 2%; padding-top: 1%; color: #666; font-size: 1vw;}
+
+
+
+/* footer 반응형 정립 */ 
+
+@media all and (min-width:300px) and (max-width:424px) {
+ 
+
+ .footer img{width: 50%;}
+ 
+ .footer_box01{width: 200px}
+ .footer_box01 li{ width: 80px;}
+ .footer_box02 img{ width: 18px; padding-right: 20px;}
+ 
+ 
+}
+
+
+/*미디어 쿼리 작업 1500px ~ 1920px */
+
+@media all and (min-width:1500px) and (max-width:1700px) {
+ 
+ /* header 이미지 css 작업 내역 */
+
+.header_img{width: 100%; margin: auto; margin-top: 2%; background-image: url(img_sub/sub02%20img.png); height:250px; background-position: center; background-size: 100%; background-repeat: no-repeat;}
+
+ 
+ /*video 영상 크기 조절 */
+ .video iframe{text-align: center;
+ width: 60%; height: 500px;}
+ 
+.pagebox1{color: #5cb7ad; font-size: 2vw;font-family: 'Jua', sans-serif; display:flex;text-align: center;}
+.pagebox_text{width: 60%;}
+.pagebox_text span{font-size: 1.5vw; color: #666;
+ padding-right: 17.5%}
+ 
+ .iconbox{text-align: center; margin-top: -15%;}
+ 
+ 
+}
+
+
+@media all and (min-width:1800px) and (max-width:1920px) {
+ 
+ /* header 이미지 css 작업 내역 */
+
+.header_img{width: 100%; margin: auto; margin-top: 2%; background-image: url(img_sub/sub02%20img.png); height:270px; background-position: center; background-size: 100%; background-repeat: no-repeat;}
+ 
+ /*video 영상 크기 조절 */
+ .video iframe{text-align: center;
+ width: 60%; height: 600px;}
+ 
+.pagebox1{color: #5cb7ad; font-size: 2vw;font-family: 'Jua', sans-serif; display:flex;text-align: center; margin-top: 1%}
+.pagebox_text{width: 60%;}
+.pagebox_text span{font-size: 1.5vw; color: #666;
+ padding-right: 17.5%}
+ 
+ .iconbox{text-align: center; margin-top: -15%;}
+ 
+ 
+ /*video 아래에 들어가는 버튼 css 작업 내역 */
+
+.line{margin-top: 18%;}
+.line p{border-bottom: 1px solid #999;width: 60%; margin: auto;}
+.cycle{display: flex; justify-content:space-between; width: 60%; margin: auto; margin-top: -9px}
+
+.one{width: 1.7%; height: 20px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: white;}
+
+.one:hover{cursor: pointer; background-color: #00cccc; }
+
+.two{width: 1.3%; height:15px;border: 1px solid;
+border-radius: 70px; color: #999; background-color: #999;}
+
+ 
+}
+
+
+@media all and (min-width:1024px) and (max-width:1300px) {
+ 
+ 
+  /* header 이미지 css 작업 내역 */
+
+.header_img{width: 100%; margin: auto; margin-top: 2%; background-image: url(img_sub/sub02%20img.png); height:175px; background-position: center; background-size: 100%; background-repeat: no-repeat;}
+
+ 
+ /*video 영상 크기 조절 */
+ .video iframe{text-align: center;
+ width: 60%;}
+ 
+.pagebox_text{width: 60%;}
+.pagebox_text span{font-size: 1.5vw; color: #666;
+ padding-right: 17.5%}
+ 
+ .pagebox1{margin: 0; padding-left: 20%}
+ .iconbox{text-align: center; margin-top: -15%;}
+ 
+ .one{width: 2%; height: 12px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: white;}
+ 
+  .two{width: 1.7%; height: 10px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: #999;}
+
+}
+
+
+
+@media all and (max-width:900px) {
+ 
+   /* header 이미지 css 작업 내역 */
+
+.header_img{width: 100%; margin: auto; margin-top: -1%; background-image: url(img_sub/sub02%20img.png); height:150px; background-position: center; background-size: 100%; background-repeat: no-repeat;}
+
+ 
+ /*video 영상 크기 조절 */
+ .video iframe{text-align: center;
+ width: 60%;}
+ 
+.pagebox_text{width: 60%;}
+.pagebox_text span{font-size: 1.5vw; color: #666;
+ padding-right: 17.5%}
+ 
+ .pagebox1{margin: 0; padding-left: 20%}
+ .iconbox{text-align: center; margin-top: -15%;}
+ 
+ .one{width: 2%; height: 12px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: white;}
+ 
+  .two{width: 1.7%; height: 10px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: #999;}
+ 
+ 
+ 
+ 
+ 
+}
+
+
+
+@media all and (min-width:600px) and (max-width:800px) {
+ 
+ .iconbox{text-align: center; margin-top: -20%;}
+ 
+ .line{margin-top: 20%; margin-bottom: 5%;}
+ 
+ .textname{display: none;}
+ 
+ 
+}
+
+
+
+@media all and (min-width:300px) and (max-width:599px) {
+ 
+ /* header 이미지 css 작업 내역 */
+
+.header_img{width: 100%; margin: auto; margin-top: -4%; background-image: url(img_sub/sub02%20img.png); height:110px; background-position: center; background-size: 100%; background-repeat: no-repeat;}
+
+ 
+ /*video 영상 크기 조절 */
+ .video iframe{text-align: center;
+ width: 80%; height: 200px;}
+ 
+.pagebox_text{width: 60%; margin-top: -5%;}
+.pagebox_text span{font-size: 1.5vw; color: #666;}
+ 
+ .pagebox1{margin: 0; padding-left: 10%;}
+ .iconbox{display: none;}
+ 
+ .cycle{margin-top: -1.2%}
+ .one{width: 2%; height: 5px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: white;}
+ 
+  .two{width: 1%; height: 4px;border: 1px solid;
+border-radius: 50px; color: #999; background-color: #999;}
+ 
+  .line{margin-bottom: 5%; padding-top: 2%;
+ margin-top: 1%}
+ 
+ .textname{display: none;}
+ 
+ 
+ 
+ 
+}
